@@ -18,7 +18,7 @@ const fetchData = async () =>{
     }).join('')
     result.innerHTML = products
   } catch (error) {
-    result.innerHTML = `<h4>There was an Error`
+    result.innerHTML = `<h4>There was an Error</h4>`
   }
 }
 
